@@ -5,10 +5,10 @@ public:
         stack<long long> sc;
 
         int n=nums.size();
-        vector<long long> ngrt(n);
-        vector<long long> pgrt(n);
-        vector<long long> nlss(n);
-        vector<long long> plss(n);
+        vector<int> ngrt(n);
+        vector<int> pgrt(n);
+        vector<int> nlss(n);
+        vector<int> plss(n);
         for(int i=0;i<n;i++){
             while(!st.empty() && nums[st.top()]<=nums[i]){
                 st.pop();
