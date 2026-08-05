@@ -10,10 +10,10 @@ public:
         vector<long long> nlss(n);
         vector<long long> plss(n);
         for(int i=0;i<n;i++){
-            while(!st.empty() && nums[st.top()]<nums[i]){
+            while(!st.empty() && nums[st.top()]<=nums[i]){
                 st.pop();
             }
-            while(!sc.empty() && nums[sc.top()]>nums[i]){
+            while(!sc.empty() && nums[sc.top()]>=nums[i]){
                 sc.pop();
             }
             if(sc.empty()) plss[i]=-1;
@@ -27,10 +27,10 @@ public:
         while(!st.empty()) st.pop();
         while(!sc.empty()) sc.pop();
         for(int i=n-1;i>=0;i--){
-            while(!st.empty() && nums[st.top()]<=nums[i]){
+            while(!st.empty() && nums[st.top()]<nums[i]){
                 st.pop();
             }
-            while(!sc.empty() && nums[sc.top()]>=nums[i]){
+            while(!sc.empty() && nums[sc.top()]>nums[i]){
                 sc.pop();
             }
             if(sc.empty()) nlss[i]=n;
