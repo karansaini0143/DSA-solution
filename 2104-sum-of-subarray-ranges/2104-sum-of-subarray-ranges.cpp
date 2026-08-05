@@ -45,8 +45,8 @@ public:
         long long high;
         long long low;
         for(int i=0;i<n;i++){
-            high=nums[i]*(ngrt[i]-i)*(i-pgrt[i]);
-            low=nums[i]*(nlss[i]-i)*(i-plss[i]);
+            high=1LL*nums[i]*(ngrt[i]-i)*(i-pgrt[i]);
+            low=1LL*nums[i]*(nlss[i]-i)*(i-plss[i]);
             sum+=high-low;
         }
         return sum;
