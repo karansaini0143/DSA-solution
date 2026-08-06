@@ -2,7 +2,10 @@ class Solution {
 public:
     string removeKdigits(string num, int k) {
         stack<char> st;
-        
+        int n=num.size();
+        if(k>=n){
+            return "0";
+        }
         for(int i=0;i<num.size();i++){
             while(!st.empty() && k>0 &&(st.top()-'0')>(num[i]-'0')){
                 st.pop();
