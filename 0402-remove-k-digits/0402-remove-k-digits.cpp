@@ -20,12 +20,12 @@ public:
             ans+=st.top();
             st.pop();
         }
-        reverse(ans.begin(),ans.end());
-        int i=0;
-        while(i < ans.size() && ans[i] == '0')
-            i++;
-        ans=ans.substr(i);
+        
+        while(ans.size()!=0 && ans.back()=='0')
+            ans.pop_back();
         if(ans.size()==0) return "0";
+        reverse(ans.begin(),ans.end());
+        
         return ans;
     }
 };
