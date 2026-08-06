@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/karansaini0143/DSA-solution/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/karansaini0143/DSA-solution/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/karansaini0143/DSA-solution/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/karansaini0143/DSA-solution/tree/master/0907-sum-of-subarray-minimums) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/karansaini0143/DSA-solution/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/karansaini0143/DSA-solution/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/karansaini0143/DSA-solution/tree/master/0907-sum-of-subarray-minimums) |
 | [2104-sum-of-subarray-ranges](https://github.com/karansaini0143/DSA-solution/tree/master/2104-sum-of-subarray-ranges) |
@@ -29,4 +31,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/karansaini0143/DSA-solution/tree/master/0735-asteroid-collision) |
+## String
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/karansaini0143/DSA-solution/tree/master/0402-remove-k-digits) |
+## Greedy
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/karansaini0143/DSA-solution/tree/master/0402-remove-k-digits) |
 <!---LeetCode Topics End-->
