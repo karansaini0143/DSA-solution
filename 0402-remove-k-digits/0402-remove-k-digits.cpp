@@ -15,14 +15,15 @@ public:
             k--;
         }
         
-        string ans;
+        string ans="";
         while(!st.empty()){
             ans+=st.top();
             st.pop();
         }
         
-        while(ans.size()!=0 && ans.back()=='0')
+        while(ans.size()!=0 && ans.back()=='0'){
             ans.pop_back();
+        }
         if(ans.size()==0) return "0";
         reverse(ans.begin(),ans.end());
         
