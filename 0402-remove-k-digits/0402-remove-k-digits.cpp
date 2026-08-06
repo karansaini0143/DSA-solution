@@ -25,7 +25,7 @@ public:
         while(i < ans.size() && ans[i] == '0')
             i++;
         ans=ans.substr(i);
-        if(ans.empty()) return "0";
+        if(ans.size()==0) return "0";
         return ans;
     }
 };
