@@ -4,7 +4,7 @@ public:
         stack<char> st;
         
         for(int i=0;i<num.size();i++){
-            while(!st.empty() && k>0 && st.top()>num[i]){
+            while(!st.empty() && k>0 &&(st.top()-'0')>(num[i]-'0')){
                 st.pop();
                 k--;
             }
