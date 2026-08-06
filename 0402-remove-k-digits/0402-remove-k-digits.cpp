@@ -6,7 +6,7 @@ public:
         if(k>=n){
             return "0";
         }
-        for(int i=0;i<num.size();i++){
+        for(int i=0;i<n;i++){
             while(!st.empty() && k>0 &&(st.top()-'0')>(num[i]-'0')){
                 st.pop();
                 k--;
