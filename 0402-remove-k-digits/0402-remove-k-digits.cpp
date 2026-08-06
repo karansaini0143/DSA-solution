@@ -16,8 +16,8 @@ public:
         }
         
         string ans;
-        for(int i=st.size()-1;i>=0;i--){
-            ans.push_back(st.top());
+        while(!st.empty()){
+            ans+=st.top();
             st.pop();
         }
         reverse(ans.begin(),ans.end());
