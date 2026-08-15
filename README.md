@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/karansaini0143/DSA-solution/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/karansaini0143/DSA-solution/tree/master/0085-maximal-rectangle) |
 | [0503-next-greater-element-ii](https://github.com/karansaini0143/DSA-solution/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/karansaini0143/DSA-solution/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/karansaini0143/DSA-solution/tree/master/0907-sum-of-subarray-minimums) |
@@ -13,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/karansaini0143/DSA-solution/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/karansaini0143/DSA-solution/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/karansaini0143/DSA-solution/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/karansaini0143/DSA-solution/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/karansaini0143/DSA-solution/tree/master/0735-asteroid-collision) |
@@ -22,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/karansaini0143/DSA-solution/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/karansaini0143/DSA-solution/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/karansaini0143/DSA-solution/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/karansaini0143/DSA-solution/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/karansaini0143/DSA-solution/tree/master/0907-sum-of-subarray-minimums) |
@@ -29,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/karansaini0143/DSA-solution/tree/master/0085-maximal-rectangle) |
 | [0907-sum-of-subarray-minimums](https://github.com/karansaini0143/DSA-solution/tree/master/0907-sum-of-subarray-minimums) |
 ## Simulation
 |  |
@@ -46,4 +50,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/karansaini0143/DSA-solution/tree/master/0084-largest-rectangle-in-histogram) |
+## Matrix
+|  |
+| ------- |
+| [0085-maximal-rectangle](https://github.com/karansaini0143/DSA-solution/tree/master/0085-maximal-rectangle) |
 <!---LeetCode Topics End-->
