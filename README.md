@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/karansaini0143/DSA-solution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/karansaini0143/DSA-solution/tree/master/0085-maximal-rectangle) |
+| [0239-sliding-window-maximum](https://github.com/karansaini0143/DSA-solution/tree/master/0239-sliding-window-maximum) |
 | [0503-next-greater-element-ii](https://github.com/karansaini0143/DSA-solution/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/karansaini0143/DSA-solution/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/karansaini0143/DSA-solution/tree/master/0907-sum-of-subarray-minimums) |
@@ -50,8 +51,25 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/karansaini0143/DSA-solution/tree/master/0084-largest-rectangle-in-histogram) |
+| [0239-sliding-window-maximum](https://github.com/karansaini0143/DSA-solution/tree/master/0239-sliding-window-maximum) |
 ## Matrix
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/karansaini0143/DSA-solution/tree/master/0085-maximal-rectangle) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/karansaini0143/DSA-solution/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/karansaini0143/DSA-solution/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/karansaini0143/DSA-solution/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/karansaini0143/DSA-solution/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
