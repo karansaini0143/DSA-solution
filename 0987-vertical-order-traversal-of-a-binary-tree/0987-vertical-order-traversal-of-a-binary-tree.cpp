@@ -11,39 +11,39 @@
  */
 class Solution {
 public:
-    map<int, map<int, multiset<int>>> lvlorder(TreeNode* node){
-        map<int, map<int, multiset<int>>> mp;
-        if(node==nullptr){
-            return mp;
-        }
-        queue<pair<TreeNode*,int>>q;
-        q.push({node,0});
+    map<int,map<int,multiset<int>>> lvlorder(TreeNode* root){
+        map<int,map<int,multiset<int>>>mpp;
+        if(root==nullptr)
+            return mpp;
+        queue<pair<TreeNode*,int>> q;
+        q.push({root,0});
         int y=0;
         while(!q.empty()){
             int sz=q.size();
             for(int i=0;i<sz;i++){
-                auto [root,d]=q.front();
+                auto [node,d]=q.front();
                 q.pop();
-                mp[d][y].insert(root->val);
-                if(root->left){
-                    q.push({root->left,d-1});
+                mpp[d][y].insert(node->val);
+                if(node->left){
+                    q.push({node->left,d-1});
                 }
-                if(root->right){
-                    q.push({root->right,d+1});
+                if(node->right){
+                    q.push({node->right,d+1});
                 }
             }
             y++;
         }
-        return mp;
+        return mpp;
     }
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        map<int,map<int, multiset<int>>>mp=lvlorder(root);
-        vector<vector<int>>ans;
-        for (auto &col : mp) {
-            vector<int>lvl;
-            for (auto &row : col.second) {
-                for (int val : row.second) {
-                    lvl.push_back(val);
+        map<int,map<int,multiset<int>>> mpp=lvlorder(root);
+        
+        vector<vector<int>> ans;
+        for(auto &col : mpp){
+            vector<int> lvl;
+            for(auto &row : col.second){
+                for(auto &value : row.second){
+                    lvl.push_back(value);
                 }
             }
             ans.push_back(lvl);
